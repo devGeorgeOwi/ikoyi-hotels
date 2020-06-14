@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="../assests/images/favicon.ico" type="image/ico" sizes="16x16">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
@@ -17,52 +18,79 @@
     <title>Facilities Page</title>
   </head>
   <body>
-    <header class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 col-sm-6 top-nav">
-          <span class="update"
-            >COVID-19 UPDATE: Learn about our commitment to cleanliness and new
-            safety policies.</span
-          >
-        </div>
+    <header >
+      <div id="covidsect">
+        <p>
+          COVID-19 UPDATE: Learn about our commitment to cleanliness and new
+          safety policies.
+        </p>
       </div>
-      <nav class="navbar">
-        <div class="col-md-12 navbar">
-          <span class="language"
-            ><i class="fa fa-arrow-down"></i>&nbsp;English</span
-          >
-          <span class="dropdown-content"
-            ><ul>
-              <li>Spanish</li>
-              <li>Francais</li>
-              <li>Germans</li>
-            </ul></span
-          >
-          <span class="sign">Sign in or Join</span>
-          <a class="navbar-brand" href="#"
-            ><img src="../assests/images/logo.svg"
-          /></a>
-          <div class="nav-item in-line-block">
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="">Special Offers</a>
-            <a class="nav-link" href="rooms-and-rates.html">Rooms & Suites</a>
-            <a class="nav-link" href="">Events</a>
-            <a class="nav-link" href="facilities.html">Facilities</a>
-            <a class="nav-link" href="contact-us.html">Contact Us</a>
-            <a class="nav-link" href="">About Ikoyi Hotels</a>
+  
+      <div id="header">
+        <div id="lang">
+          <div>
+            <select name="" id="">
+              <option value="English">English</option>
+              <option value="French">French</option>
+              <option value="Spanish">Spanish</option>
+              <option value="Portugese">Portugese</option>
+            </select>
+          </div>
+          <div class="headlinks">
+            <a href="#">Sign in or Join</a>
           </div>
         </div>
-      </nav>
-    </header>
-    <section class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 col-sm-6 bg-img">
-          <img class="bg-img2" src="../assests/images/hero-shot.svg" />
+  
+        <!-- logo and activities section -->
+        <div class="logoact-cov">
+          <div class="logo">
+              <img src="../assests/images/logo.svg" alt="logo"/>
+            </div>
+          <div id="logact">
+            <!-- <div class="logo">
+              <img src="./images/logo.svg" alt="logo" />
+            </div> -->
+  
+            <div id="facili">
+              <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#">Special Offers</a></li>
+                <li><a href="rooms-and-rates.html">Rooms & Suites</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="">About Ikoyi Hotels</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <div class="logoact-cover">
+          <div class="logo">
+              <img src="../assests/images/logo.svg" alt="logo" />
+            </div>
+          <div id="logacts">
+            <div class="drop-nav">
+              <button class="dropbtn">
+                Menu<span><i class="fa fa-caret-down"></i></span>
+              </button>
+              <div class="dropdown-contents">
+              <a href="homepage.html">Home</a>
+              <a href="#">Special Offers</a>
+              <a href="rooms-and-rates.html">Rooms & Suites</a>
+              <a href="">Events</a>
+              <a href="contact-us.html">Contact Us</a>
+              <a href="#">About Ikoyi Hotels</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="bg-img">
+        <img class="bg-img2" src="../assests/images/hero-shot.svg" />
       </div>
     </section>
     <!-- START BOOK NOW SECTION -->
-    <div class="ml-5 mr-5 book-now-section">
+    <div class="mb-5 book-now-section">
       <div class="content-row px-5">
         <div class="book-now-text-area">
           <div style="font-size: 20px; font-weight: 600;">
@@ -76,7 +104,6 @@
       </div>
     </div>
     <!-- END BOOK NOW SECTION -->
-
     <!-- START FACILITIES SECTION -->
     <div class="ml-5 mr-5 text-center">
       <div class="section-title mt-5 mb-5">FACILITIES</div>
@@ -203,8 +230,7 @@
         <div class="vl"></div>
         <div class="address">
           <h6>ADDRESS</h6>
-          <p>PLOT 10, EKO ATLANTIC CITY,</p>
-          <p>> VICTORIA ISLAND, LAGOS</p>
+          <p>PLOT 10, EKO ATLANTIC CITY,</br>VICTORIA ISLAND, LAGOS</p>
         </div>
         <div class="vl"></div>
         <div class="email">
@@ -218,9 +244,10 @@
         </div>
       </div>
     </div>
-
     <footer>
+      <div class="foot">
       <div class="footer">
+
         <div class="row1">
           <ul>
             <li><a href="#">ABOUT IKOYI HOTELS</a></li>
@@ -250,7 +277,7 @@
             <p>
               Follow us :
               <a href="#"
-                ><span style="color: white;" class="fab fa-facebook-f"></span
+                ><span style="color: white;" class="fab fa-facebook"></span
               ></a>
               <a href="#"
                 ><span style="color: white;" class="fab fa-twitter"></span
@@ -264,11 +291,31 @@
             </p>
           </div>
         </div>
+       
       </div>
-      <div class="copy">
-        <p>&copy; COPYRIGHT IKOYI HOTELS LLC 2020</p>
-      </div>
+       <div class="copy">
+          <p>&copy; COPYRIGHT IKOYI HOTELS LLC 2020</p>
+        </div> 
+</div>
+  
     </footer>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="../js/script.js"></script> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

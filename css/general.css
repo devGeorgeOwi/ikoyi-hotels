@@ -999,7 +999,7 @@ span:hover {
   /* footer*/
 
   footer {
-    background-image: url("img/footer.png");
+    background-image: url("assets/images/footer.png");
     padding-top: 80px;
     padding-bottom: 20px;
   }
@@ -1289,3 +1289,50 @@ span:hover {
 #facilities p {
   height: auto;
 }
+
+
+/* styling for the contact us page  */
+#cont001 {
+  width: 100%;
+  height: auto;
+  left: 0px;
+  top: 3202px;
+  line-height: 36px;
+  padding-bottom: 20px;
+  /* identical to box height */
+  align-items: center;
+  text-align: center;
+}
+#contacted { font-weight: 600;
+}
+#conta001 h1 {
+  text-align: center;
+}
+.getintouch {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.con1,
+.con2,
+.con3 {
+  padding-right: 50px;
+  border-left: 3px solid #ffffff;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+@media (max-width: 600px) {
+  #conta001 .getintouch {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .con1,
+  .con2,
+  .con3 {
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+
+    font-size: 17px;
+  }

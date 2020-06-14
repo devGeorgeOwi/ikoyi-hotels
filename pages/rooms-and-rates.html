@@ -13,6 +13,7 @@
       content="ikoyi hotel room and rates section"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assests/images/favicon.ico" type="image/ico" sizes="16x16">
     <link rel="stylesheet" href="../css/style.css" />
     <!-- <link rel="stylesheet" href="css/headerstyle.css" > -->
 
@@ -30,7 +31,32 @@
       crossorigin="anonymous"
     /> -->
     <title>Room-Rates</title>
-  </head>
+
+<style> 
+    /* styling for the covid section */
+#covidsect {
+  width: 100%;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  /* color: #e5e5e5; */
+  text-align: center;
+
+  background: #333333;
+}
+#covidsect p {
+  /* padding-left: 140px; */
+  padding-top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+</style>
+
+</head>
   <body>
     <!-- header sectioin for the  -->
 
@@ -41,6 +67,7 @@
         safety policies.
       </p>
     </div>
+
 
     <div id="header">
       <div id="lang">
@@ -69,13 +96,12 @@
 
           <div id="facili">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">Special Offers</a></li>
-                <li><a href="rooms-and-rates.html">Rooms & Suites</a></li>
-                <li><a href="">Events</a></li>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#">Special Offers</a></li>
+                <li><a href="#">Events</a></li>
                 <li><a href="facilities.html">Facilities</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
-              <li><a href="">About Ikoyi Hotels</a></li>
+              <li><a href="#">About Ikoyi Hotels</a></li>
             </ul>
           </div>
         </div>
@@ -90,12 +116,12 @@
               Menu<span><i class="fa fa-caret-down"></i></span>
             </button>
             <div class="dropdown-content">
-            <a href="">Special Offers</a>
-            <a href="">Rooms & Suites</a>
-            <a href="">Events</a>
-            <a href="">Facilities</a>
-            <a href="">Contact Us</a>
-            <a href="">About Ikoyi Hotels</a>
+            <a href="homepage.html">Home</a>
+            <a href="#">Special Offers</a>
+            <a href="#">Events</a>
+            <a href="facilities.html">Facilities</a>
+            <a href="contact-us.html">Contact Us</a>
+            <a href="#">About Ikoyi Hotels</a>
           </div>
         </div>
       </div>
@@ -322,9 +348,9 @@
       </div>
 
       <!-- contact us page with -->
-      <div id="contact">
+      <div id="conta001">
         <h3>CONTACT</h3>
-        <h1>Get in touch with us</h1>
+        <h1 class="contacted">Get in touch with us</h1>
         <div class="getintouch">
           <div class="con1">
             <h3>ADDRESS</h3>
@@ -382,6 +408,6 @@
       </div>
     </div>
 
-    <script src="./js/script.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
   </body>
 </html>
