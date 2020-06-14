@@ -576,12 +576,11 @@ form input {
   text-align: center;
 }
 /* styling for the contact us page  */
-#contact {
+#conta001 {
   width: 100%;
   height: auto;
   left: 0px;
   top: 3202px;
-  font-weight: 600;
   line-height: 36px;
   padding-bottom: 20px;
   /* identical to box height */
@@ -592,7 +591,9 @@ form input {
 
   background: #333333;
 }
-#contact h1 {
+#contacted { font-weight: 600;
+}
+#conta001 h1 {
   text-align: center;
 }
 .getintouch {
@@ -604,12 +605,12 @@ form input {
 .con2,
 .con3 {
   padding-right: 50px;
-  border-left: 3px solid #48cc64;
+  border-left: 3px solid #ffffff;
   padding-left: 20px;
   padding-top: 20px;
 }
 @media (max-width: 600px) {
-  #contact .getintouch {
+  #conta001 .getintouch {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -713,7 +714,7 @@ form input {
   height: 480px;
   color: #f5fafe;
 
-  background: url("../assests/images/Rectangle\ 4.svg"), #000000;
+  background: url("../assests/images/footer.png"), #000000;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
